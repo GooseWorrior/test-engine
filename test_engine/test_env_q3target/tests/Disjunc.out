@@ -1,0 +1,55 @@
+Disjunction (,)
+true
+false
+Disjunction (,Disjunction (,))
+true
+false
+Disjunction (a,b)
+false
+true
+true
+false
+Disjunction (Concatenation (a,b),c)
+true
+true
+false
+false
+Disjunction (Concatenation (Concatenation (a,b),c),d)
+true
+true
+false
+false
+Concatenation (Disjunction (a,b),c)
+false
+false
+true
+true
+false
+false
+Disjunction (a,Disjunction (b,c))
+true
+true
+true
+false
+false
+Concatenation (Disjunction (a,Disjunction (b,c)),d)
+true
+true
+true
+false
+false
+false
+false
+Concatenation (Disjunction (Concatenation (a,b),c),d)
+true
+true
+true
+false
+false
+Concatenation (a,Disjunction (b,c))
+true
+true
+false
+false
+false
+

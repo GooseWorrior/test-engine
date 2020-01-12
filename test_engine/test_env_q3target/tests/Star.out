@@ -1,0 +1,43 @@
+Star ()
+true
+false
+Star (Star ())
+true
+false
+Star ()
+true
+false
+Star (Star ())
+true
+false
+Concatenation (Star (),)
+true
+false
+Concatenation (Star (Star ()),)
+true
+false
+Concatenation (,Star ())
+true
+false
+Concatenation (,Star (Star ()))
+true
+false
+Concatenation (Star (),)
+true
+false
+Concatenation (Star (Star ()),)
+true
+false
+Concatenation (Star (),Star ())
+true
+false
+Concatenation (Star (),Concatenation (Star (),))
+true
+false
+Concatenation (Star (),Concatenation (Star (),Star ()))
+true
+false
+Concatenation (Star (Star ()),Concatenation (Star (Star ()),Star (Star ())))
+true
+false
+

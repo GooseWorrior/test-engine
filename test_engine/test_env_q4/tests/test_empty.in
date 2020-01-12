@@ -1,0 +1,16 @@
+newDefault 1
+empty 1
+[]= 1 0 0
+empty 1
+[]= 1 1 1
+empty 1
+erase 1 0
+empty 1
+erase 1 1
+empty 1
+erase 1 0
+empty 1
+newInit 2
+empty 2
+= 2 1
+empty 2

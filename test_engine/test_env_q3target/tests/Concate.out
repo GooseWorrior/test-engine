@@ -1,0 +1,18 @@
+Concatenation (a,b)
+false
+true
+false
+false
+Concatenation (a,Concatenation (b,c))
+false
+true
+Concatenation (Concatenation (a,b),c)
+true
+false
+Concatenation (a,Concatenation (b,c))
+true
+false
+Concatenation (Concatenation (Concatenation (a,b),c),d)
+true
+false
+

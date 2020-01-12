@@ -1,0 +1,11 @@
+test #18:
+time:
+Sun Sep 22 18:19:40 EDT 2019
+details:
+
+Args:
+this is an argument file for test3
+Input:
+test failed: test3
+Expected:
+Actual:

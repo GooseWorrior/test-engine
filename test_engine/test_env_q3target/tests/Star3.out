@@ -1,0 +1,47 @@
+Star (Concatenation (a,b))
+true
+true
+true
+false
+false
+Star (Star (Concatenation (a,b)))
+true
+true
+true
+false
+false
+Concatenation (Star (Concatenation (a,b)),c)
+true
+true
+true
+false
+false
+false
+Concatenation (a,Star (Concatenation (b,c)))
+true
+true
+true
+false
+false
+false
+Concatenation (Star (Concatenation (a,b)),Star (Concatenation (c,d)))
+true
+true
+true
+true
+true
+true
+true
+false
+false
+false
+Star (Concatenation (Star (Concatenation (a,b)),Star (c)))
+true
+true
+true
+true
+true
+true
+true
+true
+false
